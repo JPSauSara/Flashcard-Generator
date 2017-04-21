@@ -1,3 +1,5 @@
+'use strict';
+
 // This file should define a Node module that exports a constructor for creating basic flashcards
 // 		e.g.: module.exports = BasicCard;
 // The constructor should accept two arguments: front and back.
