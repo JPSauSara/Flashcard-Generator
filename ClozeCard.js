@@ -1,3 +1,6 @@
+'use strict';
+
+
 // This file should define a Node module that exports a constructor for creating cloze-deletion flashcards, 
 // 		e.g.: module.exports = ClozeCard;
 // The constructor should accept two arguments: text and cloze.

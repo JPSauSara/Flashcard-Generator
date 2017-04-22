@@ -1,30 +1,33 @@
-"use strict";
+// ==================================================================================================================
+
+// HW DOES NOT REQUIRE THIS PIECE!
+
+// ==================================================================================================================
+
+// "use strict";
 
 // dependency for inquirer npm package
-var inquirer = require("inquirer");
+// var inquirer = require("inquirer");
 
-var basicCard = require("./BasicCard.js");
+// var basicCard = require("./BasicCard.js");
 
-var clozeCard = require("./ClozeCard");
+// var clozeCard = require("./ClozeCard");
 
-var cardSelect = function () {
+// inquirer.prompt([
+// 	{
+// 		type: "list",
+// 		message: "What study cards do you want to use?",
+// 		choices: ["Basic Cards", "Cloze Cards"],
+// 		name: "cardtype",
+// 	}
+// ]).then(function(student) {
+// 	if (student.cardtype == "Cloze Cards") {
+// 		console.log("selected Cloze Cards!");
 
-	inquirer.prompt([
-		{
-			type: "list",
-			message: "What study cards do you want to use?",
-			choices: ["Basic Cards", "Cloze Cards"],
-			name: "cardtype",
-		}
+// 	} else {
+// 		console.log("selected Basic Cards!");
+// 	}
+// });
 
-	]).then(function(student) {
-		if (student.cardtype == "Cloze Cards") {
-			console.log("selected Cloze Cards!");
-		} else {
-			console.log("selected Basic Cards!");
-		}
-	});
+	
 
-};
-
-cardSelect();
